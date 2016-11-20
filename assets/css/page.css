@@ -1,3 +1,36 @@
-.margin-top-50{
-  margin-top: 50px;
+.padding-top-40{
+  padding-top: 40px;
+}
+
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.vertical-padding-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ui.inverted.orange-background{
+  background-color: #ff7417;
+  background: #ff7417;
+}
+
+.ui.pointing.secondary.menu{
+  border: none;
+}
+
+.page-banner{
+  min-height: 200px;
+}
+
+.footer{
+  padding: 30px;
+  min-height: 30px;
+  margin-top: 40px;
+  background-color: #cc5200;
+}
+
+.white{
+  color: white;
 }
