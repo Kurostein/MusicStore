@@ -3,145 +3,87 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./assets/libs/css/semantic.css">
-  <link rel="stylesheet" href="./assets/css/page.css">
+  <title>Music Store - Informações do álbum</title>
+  <link rel="stylesheet" href="./../assets/libs/css/semantic.min.css">
+  <link rel="stylesheet" href="./../assets/css/page.css">
 </head>
 
 <body>
-  <div class="ui inverted vertical segment" style="min-height: 200px; background-color: #ff7417;">
-    <div class="ui inverted container secondary pointing menu" style="border-color: #ff7417;">
-      <a class="item" href="#">Início</a>
+  <div class="ui inverted orange-background page-banner vertical segment">
+    <div class="ui inverted orange-border container secondary pointing menu">
+      <a class="item" href="./../index.html">Início</a>
       <a class="item" href="#">Sobre</a>
       <div class="right menu">
         <button class="ui inverted basic button" href="#">Entrar</button>
       </div>
     </div>
-    <div class="ui centered center aligned text container" style="padding-top: 50px;">
-      <h1 class="ui inverted header">Music Store</h1>
+    <div class="padding-top-40 ui centered center aligned text container">
+      <h1 class="ui inverted header">
+        Golden Beats
+        <div class="ui sub header">Music Store</div>
+        </h1>
     </div>
   </div>
-  <div class="margin-top-50 ui container">
+  <div class="margin-top-30 ui container">
 
-    <h2 class="ui inverted blue segment header">Mais vendidos</h2>
+    <h2 class="ui inverted blue segment header">Informações do álbum</h2>
 
-    <div class="ui five stackable cards" style="padding-top: 10px; padding-bottom: 10px;">
-      <div class="ui link card">
-        <a class="image">
-          <img class="image" src="./assets/img/angra_angels_cry.jpg" alt="Angra Angels Cry">
-        </a>
-        <div class="content">
-          <div class="header">Angels Cry</div>
-          <div class="meta">Angra</div>
-        </div>
+    <div class="ui stackable grid">
+
+      <div class="six wide column">
+        <img class="ui large bordered rounded image" src="./../assets/img/coldplay_parachutes.jpg" alt="Coldplay Parachutes">
       </div>
 
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/coldplay_parachutes.jpg" alt="Coldplay Parachutes">
-        </a>
-        <div class="content">
-          <div class="header">Parachutes</div>
-          <div class="meta">Coldplay</div>
-        </div>
+      <div class="six wide column">
+        <h3 class="ui dividing header">Artista</h3>
+        <p>Coldplay</p>
+
+        <h3 class="ui dividing header">Álbum</h3>
+        <p>Parachutes</p>
+
+        <h3 class="ui dividing header">Músicas</h3>
+        <ol class="ui list">
+          <li>Don't Panic</li>
+          <li>Shiver</li>
+          <li>Spies</li>
+          <li>Sparks</li>
+          <li>Yellow</li>
+          <li>Trouble</li>
+          <li>Parachutes</li>
+          <li>High Speed</li>
+          <li>We Never Change</li>
+          <li>Everything's Not Lost(Includes Hidden Track 'Life Is For Living')</li>
+        </ol>
       </div>
 
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/daniel_powter.jpg" alt="Daniel Powter">
-        </a>
-        <div class="content">
-          <div class="header">Daniel Powter</div>
-          <div class="meta">Daniel Powter</div>
+      <div class="four wide center aligned column">
+        <div class="ui center aligned top attached segment">
+          <p>Produto disponível!</p>
+          <h3 class="ui huge header">R$ 29,00</h3>
         </div>
+        <button class="ui bottom attached red fluid button"><i class="cart icon"></i>Adicionar ao carrinho</button>
+        <br>
+        <p>Calcule o frete e prazo de entrega!</p>
+        <div class="ui top attached fluid input">
+          <input type="text" placeholder="Digite seu CEP">
+        </div>
+        <button class="ui bottom attached fluid button">Calcular</button>
       </div>
 
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/keane_strangeland.jpg" alt="Keane Strangeland">
-        </a>
-        <div class="content">
-          <div class="header">Strangeland</div>
-          <div class="meta">Keane</div>
-        </div>
-      </div>
-
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/u2_all_that_you_cant_leave_behind.jpeg" alt="U2 All That You Can't Leave Behind">
-        </a>
-        <div class="content">
-          <div class="header">All That You Can't Leave Behind</div>
-          <div class="meta">U2</div>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="ui inverted blue segment header">Lançamentos</h2>
-
-    <div class="ui five stackable cards">
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/angra_angels_cry.jpg" alt="Angra Angels Cry">
-        </a>
-        <div class="content">
-          <div class="header">Angels Cry</div>
-          <div class="meta">Angra</div>
-        </div>
-      </div>
-
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/coldplay_parachutes.jpg" alt="Coldplay Parachutes">
-        </a>
-        <div class="content">
-          <div class="header">Parachutes</div>
-          <div class="meta">Coldplay</div>
-        </div>
-      </div>
-
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/daniel_powter.jpg" alt="Daniel Powter">
-        </a>
-        <div class="content">
-          <div class="header">Daniel Powter</div>
-          <div class="meta">Daniel Powter</div>
-        </div>
-      </div>
-
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/keane_strangeland.jpg" alt="Keane Strangeland">
-        </a>
-        <div class="content">
-          <div class="header">Strangeland</div>
-          <div class="meta">Keane</div>
-        </div>
-      </div>
-
-      <div class="ui link card">
-        <a class="image">
-          <img src="./assets/img/u2_all_that_you_cant_leave_behind.jpeg" alt="U2 All That You Can't Leave Behind">
-        </a>
-        <div class="content">
-          <div class="header">All That You Can't Leave Behind</div>
-          <div class="meta">U2</div>
-        </div>
-      </div>
-    </div>
-
+    </div>  
   </div>
 
   <div class="footer">
-    <div class="ui inverted basic segment" style="padding: 30px; min-height: 30px; margin-top: 40px; background-color: #cc5200;">
-      <div class="ui centered center aligned container">
-        Music Store Footer
+    <div class="ui center aligned text container">
+      <div class="ui inverted tiny header">
+        Golden Beats
+        <div class="sub header">2016. All rights reserved.</div>
       </div>
     </div>
   </div>
 
-  <script src="./assets/libs/js/jquery.js"></script>
-  <script src="./assets/libs/js/semantic.js"></script>
+  <script src="./../assets/libs/js/jquery.min.js"></script>
+  <script src="./../assets/libs/js/semantic.min.js"></script>
 </body>
 
 </html>

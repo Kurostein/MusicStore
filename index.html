@@ -10,7 +10,7 @@
 
 <body>
   <div class="ui inverted orange-background page-banner vertical segment">
-    <div class="ui inverted orange-border container secondary pointing menu">
+    <div class="ui inverted orange-border container secondary pointing menu" id="pageMenu">
       <a class="item" href="#">Início</a>
       <a class="item" href="#">Sobre</a>
       <div class="right menu">
@@ -18,7 +18,10 @@
       </div>
     </div>
     <div class="padding-top-40 ui centered center aligned text container">
-      <h1 class="ui inverted header">Music Store</h1>
+      <h1 class="ui inverted header">
+        Golden Beats
+        <div class="ui sub header">Music Store</div>
+        </h1>
     </div>
   </div>
 
@@ -27,7 +30,7 @@
     <h2 class="ui inverted blue segment header">Mais vendidos</h2>
 
     <div class="vertical-padding-10 ui five stackable cards">
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img class="image" src="./assets/img/angra_angels_cry.jpg" alt="Angra Angels Cry">
         </a>
@@ -37,7 +40,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/coldplay_parachutes.jpg" alt="Coldplay Parachutes">
         </a>
@@ -47,7 +50,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/daniel_powter.jpg" alt="Daniel Powter">
         </a>
@@ -57,7 +60,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/keane_strangeland.jpg" alt="Keane Strangeland">
         </a>
@@ -67,7 +70,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/u2_all_that_you_cant_leave_behind.jpeg" alt="U2 All That You Can't Leave Behind">
         </a>
@@ -81,7 +84,7 @@
     <h2 class="ui inverted blue segment header">Lançamentos</h2>
 
     <div class="ui five stackable cards">
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/angra_angels_cry.jpg" alt="Angra Angels Cry">
         </a>
@@ -91,7 +94,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/coldplay_parachutes.jpg" alt="Coldplay Parachutes">
         </a>
@@ -101,7 +104,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/daniel_powter.jpg" alt="Daniel Powter">
         </a>
@@ -111,7 +114,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/keane_strangeland.jpg" alt="Keane Strangeland">
         </a>
@@ -121,7 +124,7 @@
         </div>
       </div>
 
-      <div class="ui link card">
+      <div class="ui link card" onclick="onItemClick();">
         <a class="image">
           <img src="./assets/img/u2_all_that_you_cant_leave_behind.jpeg" alt="U2 All That You Can't Leave Behind">
         </a>
@@ -137,7 +140,7 @@
   <div class="footer">
     <div class="ui center aligned text container">
       <div class="ui inverted tiny header">
-        Music Store Footer
+        Golden Beats
         <div class="sub header">2016. All rights reserved.</div>
       </div>
     </div>
@@ -145,6 +148,7 @@
 
   <script src="./assets/libs/js/jquery.js"></script>
   <script src="./assets/libs/js/semantic.js"></script>
+  <script src="./assets/js/events.js"></script>
 </body>
 
 </html>
